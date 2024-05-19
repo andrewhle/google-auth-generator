@@ -2,11 +2,11 @@
 
 ## Description
 
-This program implements an application that works with Google Authenticator using a Time-Based One-Time Password (TOTP) algorithm. Google Authenticator supports various OTP algorithms, and this program specifically implements the 30-second TOTP codes. This provides a method for implementing 2FA (Two-Factor Authentication) by generating One-Time Passwords, enhancing security for any authentication process.
+This program implements an application that works with Google Authenticator using a Time-Based One-Time Password (TOTP) algorithm. Google Authenticator supports various OTP algorithms, and this program specifically implements the 30-second TOTP codes. This provides a method for implementing 2FA (Two-Factor Authentication) by generating One-Time Passwords.
 
 ## Installation
 
-Before running the program, ensure you have Python installed on your system. You can download Python from [python.org](https://www.python.org/downloads/). Additionally, you will need to install the following Python packages:
+Before running the program, ensure you have Python installed on your system. Additionally, you will need to install the following Python packages:
 
 ```bash
 pip install pyotp qrcode argparse
