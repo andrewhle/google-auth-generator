@@ -30,7 +30,7 @@ python3 main.py --get-otp
 ## Configuration
 
 ### Email
-Ensure you replace the email in the script with the one you use with your Google Authenticator app to ensure seamless integration.
+Ensure you replace the email in the script with the one you use with your Google Authenticator for compatibility match.
 
 ```python
 google_auth_email = "your-email@example.com"
