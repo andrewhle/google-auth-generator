@@ -16,13 +16,13 @@ pip install pyotp qrcode argparse
 
 The program can be executed with the command python3 main.py and accepts two arguments:
 
-```--generate-qr```: This command generates a QR code as a PNG image and saves it in the same directory. Users can scan this QR code using the Google Authenticator app to set up their authentication token.
+--generate-qr: This command generates a QR code as a PNG image and saves it in the same directory. Users can scan this QR code using the Google Authenticator app to set up their authentication token.
 
 ```bash
 python3 main.py --generate-qr
 ```
 
-```--get-otp```: This command outputs a TOTP that should match the current code displayed in the Google Authenticator app. If the code does not match, it's likely due to the time-bound nature of TOTP. Simply run the command again.
+--get-otp: This command outputs a TOTP that should match the current code displayed in the Google Authenticator app. If the code does not match, it's likely due to the time-bound nature of TOTP. Simply run the command again.
 
 ```bash
 python3 main.py --get-otp
