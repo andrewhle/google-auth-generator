@@ -22,7 +22,7 @@ The program can be executed with the command python3 main.py and accepts two arg
 python3 main.py --generate-qr
 ```
 
-```--get-otp```: This command outputs a TOTP that should match the current code displayed in the Google Authenticator app. If the code does not match, it's likely due to the time-bound nature of TOTP. Simply run the command again.
+```--get-otp```: This command outputs a TOTP that should match the current code displayed in the Google Authenticator app. If the code does not match, it's likely due to the time limit (30 seconds) nature of TOTP. Simply run the command again.
 
 ```bash
 python3 main.py --get-otp
